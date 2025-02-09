@@ -222,7 +222,7 @@ console.log(f1 || getName("Saikumar Pillamarri"))
 
 
 
-//================= Async - Await Function
+//================== Async - Await Function
 let getListOfProductsElement=document.querySelector(".list-of-products")
 
 
