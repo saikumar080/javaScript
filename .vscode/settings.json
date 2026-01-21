@@ -1,0 +1,6 @@
+{
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-preview-extension": true,
+        "live-server-extension": true
+    }
+}
