@@ -1,0 +1,22 @@
+ whenever JS runs   any program a Global execution context is created.
+ It has 2 components:
+ 1. Memory  component && variable environment.
+ 2. code execution component. 
+ In the  1st phase memory is allocted to  each  variable and functions.
+  for variable initial it store undefined.
+  for functions it store entire code inside the  fn.
+
+
+  Call stack() : where all the  execution context is  stored. Where ever GEC is created  it's  pushed into stack.
+   When the  second component is  executed ::CEC---- 
+   1.the value present in the variable is repalced with  undefined value is  memory  component.
+   2. whenever a function is  invoked() the  execution context is  create seperate for the  belonging function which is limited :::
+             again it  has 2 component: 1 MC && 2 CEC
+             1. MC: here memory is  allocated for code which is present in this function For variable it's store as undefined for functions it  store entire function.
+             2. CEP :  while the  code executed inside the  function  the undefined is repalced by the actual value during execution. for function again local execution context is created until it  will return vaule.
+             once the  function is invoked and the code is  executed  execution context is vansihed , along  with that it's popup from call stack();
+            after executing all the lines the callstack is  popup and callstack become empty.
+
+
+
+
